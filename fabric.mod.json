@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "easyban",
+  "version": "${version}",
+  "name": "EasyBan",
+  "description": "Kliencki, fałszywy ban widoczny tylko dla Ciebie. N = ustawienia, Prawy Alt = ban.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.easyban.EasyBanClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
